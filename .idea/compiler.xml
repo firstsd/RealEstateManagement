@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="RealEstateManagement" />
+        <module name="RSM" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="RealEstateManagement" target="1.8" />
+      <module name="RSM" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

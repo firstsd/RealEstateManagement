@@ -37,13 +37,13 @@ public class UserSeivceTest {
         // Process mock annotations
         MockitoAnnotations.initMocks(this);
         User u1 = new User();
-        u1.setFirstName("Enkh");
-        u1.setEmail("enkh@mum.edu");
+        u1.setFirstName("Gundsambuu");
+        u1.setEmail("gbadam@mum.edu");
         u1.setLastName("B");
         User u2 = new User();
-        u2.setFirstName("Erdene");
-        u2.setEmail("erdene@mum.edu");
-        u2.setLastName("B");
+        u2.setFirstName("Sodjamts");
+        u2.setEmail("Skhurelbat@mum.edu");
+        u2.setLastName("K");
         users.add(u1);
         users.add(u2);
     }

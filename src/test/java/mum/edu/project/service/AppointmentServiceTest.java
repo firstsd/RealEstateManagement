@@ -47,8 +47,8 @@ public class AppointmentServiceTest {
 		p1.setName("Appartment");
 		bookAppointment1.setProperty(p1);
 		User user1 = new User();
-		user1.setFirstName("Aldarkhangai");
-		user1.setLastName("Chimed-Ochir");
+		user1.setFirstName("Gundsambuu");
+		user1.setLastName("Badam");
 		bookAppointment1.setBuyer(user1);
 		// test data 2
 		BookAppointment bookAppointment2 = new BookAppointment();
@@ -60,8 +60,8 @@ public class AppointmentServiceTest {
 		p2.setName("House");
 		bookAppointment2.setProperty(p2);
 		User user2 = new User();
-		user2.setFirstName("Enkhtsatral");
-		user2.setLastName("Byambaa");
+		user2.setFirstName("Sodjamts");
+		user2.setLastName("Khurelbat");
 		bookAppointment2.setBuyer(user2);
 		appointmentList.add(bookAppointment1);
 		appointmentList.add(bookAppointment2);
