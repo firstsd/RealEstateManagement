@@ -9,3 +9,4 @@ target/
 .setting
 /.project
 .settings/
+.idea/
