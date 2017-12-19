@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:webflow-config="http://www.springframework.org/schema/webflow-config"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:tx="http://www.springframework.org/schema/tx" xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd
+		http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd
+		http://www.springframework.org/schema/webflow-config http://www.springframework.org/schema/webflow-config/spring-webflow-config-2.3.xsd">
+
+	<import resource="beans-context.xml" />
+	<!-- <mvc:annotation-driven /> -->
+	<mvc:annotation-driven validator="validator"
+		conversion-service="conversionService" />
+
+	<bean id="conversionService"
+		class="org.springframework.format.support.FormattingConversionServiceFactoryBean">
+		<property name="formatters">
+			<set>
+				<bean class="mum.edu.project.formatter.TelephoneFormatter"></bean>
+			</set>
+		</property>
+	</bean>
+
+	<mvc:resources location="/resources/" mapping="/resources/**" />
+	<mvc:resources mapping="/uploadimage/**" location="file:c://images/" />
+		
+	<mvc:interceptors>
+		<bean class="org.springframework.web.servlet.i18n.LocaleChangeInterceptor">
+			<property name="paramName" value="language" />
+		</bean>
+		<!-- <mvc:interceptor> -->
+		<!-- <mvc:mapping path="/**" /> -->
+		<!-- <bean class="com.packt.webstore.interceptor.VolunteerInterceptor" 
+			/> -->
+		<!-- </mvc:interceptor> -->
+	</mvc:interceptors>
+	<mvc:resources mapping="/uploadimages/**" location="file:c://images/" />
+	<bean id="multipartResolver"
+		class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+		<property name="maxUploadSize" value="10240000" />
+	</bean>
+<!-- start webflow -->
+	<bean id="flowHandlerMapping" class="org.springframework.webflow.mvc.servlet.FlowHandlerMapping">
+		<property name="flowRegistry" ref="flowRegistry" />
+	</bean>
+
+	<bean id="flowHandlerAdapter" class="org.springframework.webflow.mvc.servlet.FlowHandlerAdapter">
+		<property name="flowExecutor" ref="flowExecutor" />
+	</bean>
+
+	<webflow-config:flow-executor id="flowExecutor"	flow-registry="flowRegistry" />
+
+	
+	<webflow-config:flow-registry flow-builder-services="flowBuilderServices" 
+									id="flowRegistry"	base-path="/WEB-INF/flows">
+		<webflow-config:flow-location id="webflowregister" path="register-flow.xml" />
+ 	</webflow-config:flow-registry>
+	
+	<webflow-config:flow-builder-services id="flowBuilderServices" validator="validator" view-factory-creator="mvcViewFactoryCreator" />
+
+
+    <!-- Configure flow builder services -->
+    <!-- Configure view service -->
+    <!-- Use a Tile View Resolver -->
+    <bean id="mvcViewFactoryCreator"
+       class="org.springframework.webflow.mvc.builder.MvcViewFactoryCreator">
+       <property name="viewResolvers" ref="tilesViewResolver"/>
+    </bean>
+    <!-- Resolves views by delegating to the Tiles layout system -->
+    <!-- Map view name to a tile definition with the same name -->
+    <bean id="tilesViewResolver"
+       class="org.springframework.web.servlet.view.UrlBasedViewResolver">
+        <property name="viewClass" value="org.springframework.web.servlet.view.tiles3.TilesView" />
+    </bean>
+</beans>

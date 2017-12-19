@@ -1,0 +1,38 @@
+Kimtey:
+	- cancel appointment
+	- login / logout
+	- remember me
+	- encode password
+	- display property item
+	- add feedback to the property
+	- i18n
+	- unit test feedback
+	- webflow register(together)
+Aldar:
+	 - Add appointment
+	 - Approve appointment
+	 - Approve pending request by ajax
+	 - Show pending request
+	 - Show order list
+	 - Show appointment
+	 - Telephone custom formatter
+     - i18n
+     - unit test appointment
+	 - webflow register(together)
+Enkhee:
+	 - Add property upload
+	 - Add property order
+	 - Find property by ajax on home
+	 - Tiles
+	 - View property item
+	 - i18n
+     - unit test order
+	 - webflow register(together)
+Erdene:
+	- register form
+	- view all listing
+	- i18n
+	- Find property by ajax on property list page
+	- order entity
+	- unit test user
+	- webflow register(together)

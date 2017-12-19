@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flow xmlns="http://www.springframework.org/schema/webflow"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/webflow
+							http://www.springframework.org/schema/webflow/spring-webflow.xsd">
+
+<!-- Flow level variable definition SO flow scope -->
+	<var name="user" class="mum.edu.project.model.User" />
+	<!-- <var name="telephone" class="mum.edu.project.formatter.Telephone" /> -->
+	<var name="address" class="mum.edu.project.model.Address" />
+	<var name="role" class="mum.edu.project.model.Role" />
+
+<!-- First "state" listed is first executed - unless <on-start> -->
+	<action-state id="addRegister1">
+<!-- 	requestParameters.-->
+ 		<evaluate expression="registerControllerHelper.createUser()"
+			result="user" />
+ 		<transition to="displayRegisterView" />
+	</action-state>
+
+	<view-state id="displayRegisterView" view="webRegister" model="user">
+	    <on-entry>
+	    	<!-- <set name="roles" value="roleService.getRoleNotAdmin()"/> -->
+	        <!-- <set name="user.telephone" value="telephone"/> -->
+	        <set name="user.address" value="address"/>
+	        <set name="user.role" value="role"/>
+	    </on-entry>
+	    <on-render>
+		    <evaluate expression="registerControllerHelper.getRoleNotAdmin()" result="viewScope.roles" />
+	    </on-render>
+		<transition on="performRegister" to="performRegisterAction" />
+	</view-state>
+	
+	<action-state id="performRegisterAction">
+		<evaluate expression="registerControllerHelper.saveUser(user)" result="user"/>
+		<transition to="successRegister" />
+	</action-state>
+
+	<view-state id="successRegister" model="user">
+		<transition to="endState"/>
+	</view-state>
+	<end-state id="endState"/>
+
+</flow>
