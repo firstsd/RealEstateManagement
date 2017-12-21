@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
-import mum.edu.project.model.Role;
-import mum.edu.project.model.User;
+import mum.edu.project.domain.Role;
+import mum.edu.project.domain.User;
 import mum.edu.project.service.RoleService;
 import mum.edu.project.service.UserService;
 @Controller
@@ -37,7 +37,7 @@ public class RegisterController {
 		user.setRole(roleService.getRoleById(user.getRole().getId()));
 		userService.save(user);
 	    ra.addFlashAttribute("user",user);
-	    ra.addFlashAttribute("msg","you've registration, please login to get more");
+	    ra.addFlashAttribute("msg","you've successfully registered, please login with credentials.");
 	     return "redirect:/login";
 	 }
 	 

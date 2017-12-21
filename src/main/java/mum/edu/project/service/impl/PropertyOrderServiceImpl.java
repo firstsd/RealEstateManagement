@@ -3,10 +3,9 @@ package mum.edu.project.service.impl;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Repository;
 import org.springframework.stereotype.Service;
 
-import mum.edu.project.model.PropertyOrder;
+import mum.edu.project.domain.PropertyOrder;
 import mum.edu.project.repository.PropertyOrderRepository;
 import mum.edu.project.service.PropertyOrderService;
 

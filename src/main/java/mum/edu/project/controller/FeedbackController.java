@@ -13,9 +13,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import mum.edu.project.model.Property;
-import mum.edu.project.model.PropertyFeedback;
-import mum.edu.project.model.User;
+import mum.edu.project.domain.Property;
+import mum.edu.project.domain.PropertyFeedback;
+import mum.edu.project.domain.User;
 import mum.edu.project.service.PropertyFeedbackService;
 import mum.edu.project.service.PropertyService;
 @Controller

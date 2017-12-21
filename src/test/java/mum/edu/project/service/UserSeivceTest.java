@@ -6,7 +6,6 @@ package mum.edu.project.service;
 import static org.mockito.Mockito.when;
 
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 import org.junit.Before;
@@ -15,9 +14,7 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 
-import mum.edu.project.model.Address;
-import mum.edu.project.model.Role;
-import mum.edu.project.model.User;
+import mum.edu.project.domain.User;
 import mum.edu.project.repository.UserRepository;
 import mum.edu.project.service.impl.UserServiceImpl;
 

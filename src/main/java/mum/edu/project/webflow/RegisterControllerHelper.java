@@ -7,8 +7,8 @@ import javax.servlet.http.HttpSession;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import mum.edu.project.model.Role;
-import mum.edu.project.model.User;
+import mum.edu.project.domain.Role;
+import mum.edu.project.domain.User;
 import mum.edu.project.service.RoleService;
 import mum.edu.project.service.UserService;
 

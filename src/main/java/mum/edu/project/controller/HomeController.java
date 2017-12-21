@@ -20,9 +20,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.SessionAttributes;
 import org.springframework.web.bind.support.SessionStatus;
 
-import mum.edu.project.model.Property;
-import mum.edu.project.model.PropertyStatus;
-import mum.edu.project.model.User;
+import mum.edu.project.domain.Property;
+import mum.edu.project.domain.PropertyStatus;
+import mum.edu.project.domain.User;
 import mum.edu.project.service.PropertyService;
 import mum.edu.project.service.UserService;
 

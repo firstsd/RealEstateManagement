@@ -15,7 +15,7 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 
-import mum.edu.project.model.PropertyFeedback;
+import mum.edu.project.domain.PropertyFeedback;
 import mum.edu.project.repository.PropertyFeedbackRepository;
 import mum.edu.project.service.impl.PropertyFeedbackServiceImpl;
 

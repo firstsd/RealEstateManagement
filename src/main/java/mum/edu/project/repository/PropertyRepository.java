@@ -7,9 +7,9 @@ import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
-import mum.edu.project.model.Property;
-import mum.edu.project.model.PropertyOrder;
-import mum.edu.project.model.PropertyStatus;
+import mum.edu.project.domain.Property;
+import mum.edu.project.domain.PropertyOrder;
+import mum.edu.project.domain.PropertyStatus;
 
 @Repository
 public interface PropertyRepository extends CrudRepository<Property, Long> {

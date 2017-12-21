@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="RealEstateManagement:war exploded">
-    <output-path>$PROJECT_DIR$/target/RealEstateManagement-0.0.1-SNAPSHOT</output-path>
+    <output-path>$PROJECT_DIR$/classes/artifacts/RealEstateManagement_war_exploded</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
@@ -98,9 +98,6 @@
           <element id="library" level="project" name="Maven: ognl:ognl:2.7.3" />
           <element id="library" level="project" name="Maven: jboss:javassist:3.7.ga" />
         </element>
-      </element>
-      <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/target/RealEstateManagement-0.0.1-SNAPSHOT/META-INF/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="RealEstateManagement/web/Web" />
     </root>

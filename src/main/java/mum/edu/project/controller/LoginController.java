@@ -15,8 +15,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.SessionAttributes;
 
-import mum.edu.project.model.Role;
-import mum.edu.project.model.User;
+import mum.edu.project.domain.Role;
+import mum.edu.project.domain.User;
 import mum.edu.project.service.RoleService;
 
 @Controller

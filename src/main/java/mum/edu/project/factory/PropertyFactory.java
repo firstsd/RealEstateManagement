@@ -5,10 +5,9 @@ package mum.edu.project.factory;
 
 import java.util.Date;
 
-import mum.edu.project.constants.Constants;
-import mum.edu.project.model.Property;
-import mum.edu.project.model.PropertyStatus;
-import mum.edu.project.model.dto.PropertyDto;
+import mum.edu.project.domain.Property;
+import mum.edu.project.domain.PropertyStatus;
+import mum.edu.project.domain.dto.PropertyDto;
 
 public class PropertyFactory {
     

@@ -23,9 +23,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.SessionAttributes;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
-import mum.edu.project.model.Property;
-import mum.edu.project.model.dto.SearchPropertyDto;
-import mum.edu.project.model.helper.PropertyListModel;
+import mum.edu.project.domain.Property;
+import mum.edu.project.domain.dto.SearchPropertyDto;
+import mum.edu.project.domain.helper.PropertyListModel;
 import mum.edu.project.service.PropertyService;
 import mum.edu.project.service.UserService;
 

@@ -7,7 +7,7 @@ import javax.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import mum.edu.project.model.PurposeType;
+import mum.edu.project.domain.PurposeType;
 import mum.edu.project.repository.PurposeTypeRepository;
 import mum.edu.project.service.PurposeTypeService;
 

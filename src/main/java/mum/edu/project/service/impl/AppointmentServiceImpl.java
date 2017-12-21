@@ -5,8 +5,8 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import mum.edu.project.model.AppointmentStatus;
-import mum.edu.project.model.BookAppointment;
+import mum.edu.project.domain.AppointmentStatus;
+import mum.edu.project.domain.BookAppointment;
 import mum.edu.project.repository.AppointmentRepository;
 import mum.edu.project.service.AppointmentService;
 

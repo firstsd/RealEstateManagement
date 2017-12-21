@@ -7,7 +7,7 @@ import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
-import mum.edu.project.model.User;
+import mum.edu.project.domain.User;
 
 @Repository
 public interface UserRepository extends CrudRepository<User, Long> {

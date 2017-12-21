@@ -2,8 +2,8 @@ package mum.edu.project.service;
 
 import java.util.List;
 
-import mum.edu.project.model.AppointmentStatus;
-import mum.edu.project.model.BookAppointment;
+import mum.edu.project.domain.AppointmentStatus;
+import mum.edu.project.domain.BookAppointment;
 
 public interface AppointmentService {
 	public List<BookAppointment> getAllAppointment();

@@ -5,10 +5,8 @@ package mum.edu.project.service;
 
 import static org.mockito.Mockito.when;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 import org.junit.Before;
@@ -17,10 +15,10 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 
-import mum.edu.project.model.AppointmentStatus;
-import mum.edu.project.model.BookAppointment;
-import mum.edu.project.model.Property;
-import mum.edu.project.model.User;
+import mum.edu.project.domain.AppointmentStatus;
+import mum.edu.project.domain.BookAppointment;
+import mum.edu.project.domain.Property;
+import mum.edu.project.domain.User;
 import mum.edu.project.repository.AppointmentRepository;
 import mum.edu.project.service.impl.AppointmentServiceImpl;
 

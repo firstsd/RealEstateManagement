@@ -5,7 +5,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import mum.edu.project.model.PropertyFeedback;
+import mum.edu.project.domain.PropertyFeedback;
 import mum.edu.project.repository.PropertyFeedbackRepository;
 import mum.edu.project.service.PropertyFeedbackService;
 

@@ -2,7 +2,7 @@ package mum.edu.project.service;
 
 import java.util.List;
 
-import mum.edu.project.model.PropertyOrder;
+import mum.edu.project.domain.PropertyOrder;
 
 public interface PropertyOrderService {
 	public PropertyOrder getById(Long id);

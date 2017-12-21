@@ -2,7 +2,7 @@ package mum.edu.project.service;
 
 import java.util.List;
 
-import mum.edu.project.model.Role;
+import mum.edu.project.domain.Role;
 
 public interface RoleService {
 	public List<Role> getAllRole();

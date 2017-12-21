@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import mum.edu.project.model.AppointmentStatus;
-import mum.edu.project.model.BookAppointment;
+import mum.edu.project.domain.AppointmentStatus;
+import mum.edu.project.domain.BookAppointment;
 import mum.edu.project.service.AppointmentService;
 
 @Controller

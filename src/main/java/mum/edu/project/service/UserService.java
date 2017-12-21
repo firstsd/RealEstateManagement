@@ -2,7 +2,7 @@ package mum.edu.project.service;
 
 import java.util.List;
 
-import mum.edu.project.model.User;
+import mum.edu.project.domain.User;
 
 public interface UserService {
     

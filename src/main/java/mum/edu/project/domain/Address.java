@@ -1,7 +1,7 @@
 /*
  * Created on Nov 16, 2017
  */
-package mum.edu.project.model;
+package mum.edu.project.domain;
 
 import java.io.Serializable;
 

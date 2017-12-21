@@ -1,7 +1,5 @@
-package mum.edu.project.model.dto;
+package mum.edu.project.domain.dto;
 
-
-import javax.validation.constraints.NotNull;
 
 public class PropertyOrderDto {
 

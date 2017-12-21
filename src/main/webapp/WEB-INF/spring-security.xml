@@ -54,7 +54,7 @@
      <authentication-manager>
 		<authentication-provider>
 			<security:password-encoder ref="passwordEncoder" />
-			<jdbc-user-service data-source-ref="dataSource"
+			<security:jdbc-user-service data-source-ref="dataSource"
 				users-by-username-query="select u.email, u.password, 1  from user u where email = ?"
 				authorities-by-username-query="select u.email, ur.role_name from user u, role ur where u.role_id = ur.id and u.email = ? " />
 		</authentication-provider>

@@ -165,3 +165,7 @@ h2{font-size: 25px;}
     font-size: 25px;
     margin-left: 10px;
 }
+.error {
+	color: #ff0000;
+	font-style: italic;
+}

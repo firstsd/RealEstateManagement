@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
-import mum.edu.project.model.dto.DomainError;
-import mum.edu.project.model.dto.DomainErrors;
+import mum.edu.project.domain.dto.DomainError;
+import mum.edu.project.domain.dto.DomainErrors;
 
 @ControllerAdvice
 public class ExceptionController {

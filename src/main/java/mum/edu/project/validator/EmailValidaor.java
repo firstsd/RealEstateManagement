@@ -5,7 +5,7 @@ import javax.validation.ConstraintValidatorContext;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
-import mum.edu.project.model.User;
+import mum.edu.project.domain.User;
 import mum.edu.project.service.UserService;
 
 public class EmailValidaor implements ConstraintValidator<DuplicatedEmail, String> {

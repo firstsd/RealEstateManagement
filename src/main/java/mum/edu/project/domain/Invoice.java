@@ -1,4 +1,4 @@
-package mum.edu.project.model;
+package mum.edu.project.domain;
 
 import java.util.Date;
 

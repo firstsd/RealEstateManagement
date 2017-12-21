@@ -2,7 +2,7 @@ package mum.edu.project.service;
 
 import java.util.List;
 
-import mum.edu.project.model.PropertyImage;
+import mum.edu.project.domain.PropertyImage;
 
 public interface PropertyImageService {
     PropertyImage getById(Long id);

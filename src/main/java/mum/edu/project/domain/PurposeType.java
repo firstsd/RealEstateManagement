@@ -1,4 +1,4 @@
-package mum.edu.project.model;
+package mum.edu.project.domain;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

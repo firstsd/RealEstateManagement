@@ -7,8 +7,8 @@ import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
-import mum.edu.project.model.AppointmentStatus;
-import mum.edu.project.model.BookAppointment;
+import mum.edu.project.domain.AppointmentStatus;
+import mum.edu.project.domain.BookAppointment;
 
 @Repository
 public interface AppointmentRepository extends CrudRepository<BookAppointment, Long> {

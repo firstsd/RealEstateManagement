@@ -1,4 +1,4 @@
-package mum.edu.project.model.dto;
+package mum.edu.project.domain.dto;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -5,7 +5,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import mum.edu.project.model.Role;
+import mum.edu.project.domain.Role;
 import mum.edu.project.repository.RoleRepository;
 import mum.edu.project.service.RoleService;
 

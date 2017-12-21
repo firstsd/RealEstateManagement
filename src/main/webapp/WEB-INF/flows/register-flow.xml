@@ -5,10 +5,10 @@
 							http://www.springframework.org/schema/webflow/spring-webflow.xsd">
 
 <!-- Flow level variable definition SO flow scope -->
-	<var name="user" class="mum.edu.project.model.User" />
+	<var name="user" class="mum.edu.project.domain.User" />
 	<!-- <var name="telephone" class="mum.edu.project.formatter.Telephone" /> -->
-	<var name="address" class="mum.edu.project.model.Address" />
-	<var name="role" class="mum.edu.project.model.Role" />
+	<var name="address" class="mum.edu.project.domain.Address" />
+	<var name="role" class="mum.edu.project.domain.Role" />
 
 <!-- First "state" listed is first executed - unless <on-start> -->
 	<action-state id="addRegister1">

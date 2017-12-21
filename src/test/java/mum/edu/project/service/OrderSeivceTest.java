@@ -15,7 +15,7 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 
-import mum.edu.project.model.PropertyOrder;
+import mum.edu.project.domain.PropertyOrder;
 import mum.edu.project.repository.PropertyOrderRepository;
 import mum.edu.project.service.impl.PropertyOrderServiceImpl;
 

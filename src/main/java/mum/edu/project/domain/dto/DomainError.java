@@ -1,4 +1,4 @@
-package mum.edu.project.model.dto;
+package mum.edu.project.domain.dto;
 
 public class DomainError {
 	private String message;

@@ -1,8 +1,8 @@
-package mum.edu.project.model.helper;
+package mum.edu.project.domain.helper;
 
 import java.util.List;
 
-import mum.edu.project.model.Property;
+import mum.edu.project.domain.Property;
 
 public class PropertyListModel {
 

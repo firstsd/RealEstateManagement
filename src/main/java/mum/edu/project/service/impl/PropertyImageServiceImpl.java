@@ -5,7 +5,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import mum.edu.project.model.PropertyImage;
+import mum.edu.project.domain.PropertyImage;
 import mum.edu.project.repository.PropertyImageRepository;
 import mum.edu.project.service.PropertyImageService;
 

@@ -1,4 +1,4 @@
-package mum.edu.project.model;
+package mum.edu.project.domain;
 
 import java.io.Serializable;
 
@@ -13,6 +13,7 @@ import javax.persistence.JoinColumn;
 import javax.persistence.OneToOne;
 import javax.validation.Valid;
 
+import mum.edu.project.validator.DuplicatedEmail;
 import org.hibernate.validator.constraints.Email;
 import org.hibernate.validator.constraints.NotBlank;
 
@@ -32,11 +33,11 @@ public class User implements Serializable {
 
     @NotBlank
     @Email
-    @Column(name = "email")
+    @DuplicatedEmail
     private String email;
 
-    @Column(name = "mobile")
     @NotBlank
+
     private String mobile;
 
     @Valid
@@ -44,7 +45,6 @@ public class User implements Serializable {
     @JoinColumn(name = "address_id")
     private Address address;
 
-    @Column(name = "password")
     @NotBlank
     private String password;
 

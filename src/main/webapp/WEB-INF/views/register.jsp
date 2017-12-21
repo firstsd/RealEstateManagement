@@ -31,12 +31,12 @@
 							<div class="col-lg-6">
 								<spring:message code="user.firstName"   text="Username:" var="username"/> 
 								<form:input class="form-control" path="firstName"  placeholder="${username}"/> 
-								<form:errors path="firstName"/>
+								<form:errors path="firstName" class="error"/>
 							</div>
 							<div class="col-lg-6">
 								<spring:message code="user.lastName"  text="Lastname:" var="lastname"/> 
 								<form:input class="form-control" path="lastName"  placeholder="${lastname}" />
-								<form:errors path="lastName"/>
+								<form:errors path="lastName" class="error"/>
 							</div>
 						</div>
 						<div class="form-group">
@@ -46,19 +46,19 @@
 						<div class="form-group">
 							<spring:message code="user.email" text="Email:" var="email"/> 
 							<form:input  class="form-control" placeholder="${email}"  path="email" />
-							<form:errors path="email"/>
+							<form:errors path="email" class="error"/>
 						</div>
 						
 						<div class="form-group">
 							<spring:message code="user.password" text="Password:" var="password"/>
 							<form:input type="password"  class="form-control" placeholder="${password}" path="password"/>
-							<form:errors path="password"/>
+							<form:errors path="password" class="error"/>
 						</div>
 						
 						<div class="form-group">
 							<spring:message code="user.mobile" text="Mobile:" var="mobile"/>
 							<form:input class="form-control" placeholder="${mobile}" path="mobile" />
-							<form:errors path="mobile"/>
+							<form:errors path="mobile" class="error"/>
 						</div>
 						
 						<%-- <div class="form-group">
@@ -69,22 +69,22 @@
 						<div class="form-group">
 							<spring:message code="address.street" text="Street:" var="street"/>
 							<form:input class="form-control"  placeholder="${street}" path="address.street"/>
-							<form:errors path="address.street"/>
+							<form:errors path="address.street" class="error"/>
 						</div>
 						<div class="form-group">
 							<spring:message code="address.city" text="City:" var="city"/>
 							<form:input  class="form-control"  placeholder="${city}" path="address.city"/>
-							<form:errors path="address.city"/>
+							<form:errors path="address.city" class="error"/>
 						</div>
 						<div class="form-group">
 							<spring:message code="address.state" text="State:" var="state"/>
 							<form:input  class="form-control" placeholder="${state}" path="address.state"/>
-							<form:errors path="address.state"/>
+							<form:errors path="address.state" class="error"/>
 						</div>
 							<div class="form-group">
 							<spring:message code="address.zipcode" text="Zipcode:" var="zipcode"/>
 							<form:input class="form-control"  placeholder="${zipcode}" path="address.zipcode"/>
-							<form:errors path="address.zipcode"/>
+							<form:errors path="address.zipcode" class="error"/>
 						</div>
 						<button type="submit" class="btn btn-success" name="Submit"><spring:message code="register" text="Register"/></button>
 					</form:form>

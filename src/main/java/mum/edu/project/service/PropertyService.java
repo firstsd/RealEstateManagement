@@ -2,9 +2,9 @@ package mum.edu.project.service;
 
 import java.util.List;
 
-import mum.edu.project.model.Property;
-import mum.edu.project.model.PropertyOrder;
-import mum.edu.project.model.PropertyStatus;
+import mum.edu.project.domain.Property;
+import mum.edu.project.domain.PropertyOrder;
+import mum.edu.project.domain.PropertyStatus;
 
 public interface PropertyService {
 

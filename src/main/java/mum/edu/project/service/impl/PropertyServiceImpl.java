@@ -6,9 +6,9 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import mum.edu.project.model.Property;
-import mum.edu.project.model.PropertyOrder;
-import mum.edu.project.model.PropertyStatus;
+import mum.edu.project.domain.Property;
+import mum.edu.project.domain.PropertyOrder;
+import mum.edu.project.domain.PropertyStatus;
 import mum.edu.project.repository.PropertyRepository;
 import mum.edu.project.service.PropertyService;
 

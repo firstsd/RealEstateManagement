@@ -1,27 +1,16 @@
-package mum.edu.project.model.dto;
+package mum.edu.project.domain.dto;
 
 import java.io.Serializable;
-import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-import javax.persistence.CascadeType;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.FetchType;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.OneToMany;
-import javax.persistence.OneToOne;
 import javax.validation.constraints.NotNull;
 
 import org.springframework.web.multipart.MultipartFile;
 
-import mum.edu.project.model.PropertyStatus;
-import mum.edu.project.model.PurposeType;
-import mum.edu.project.model.User;
+import mum.edu.project.domain.PropertyStatus;
+import mum.edu.project.domain.PurposeType;
+import mum.edu.project.domain.User;
 
 public class PropertyDto implements Serializable {
 	
