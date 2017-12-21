@@ -42,7 +42,7 @@
 									<td>${hotProperty.address}</td>
 									<td>${hotProperty.utilitiesCost}</td>
 									<td>${hotProperty.getOwner().getFirstName()}</td>
-									<td>${hotProperty.getPurposeKey()}</td>
+									<td>${hotProperty.purposeName}</td>
 									<td><a href="<c:url value="/property/propertyList?id=${hotProperty.id}"/>">View</a></td>
 									 <td><a href="#" class="approveRequestBtn" valId="${hotProperty.id}" >Approve</a></td>
 								</tr>
