@@ -33,7 +33,7 @@
 								<th><spring:message code="list.Name"   text="Name" /></th>
 								<th><spring:message code="list.Address"   text="Address" /></th>
 								<th><spring:message code="list.Purpose"   text="Purpose" /></th>
-								<th><spring:message code="list.Owner of property"   text="Owner of property" /></th>
+								<th><spring:message code="list.Owner"   text="Owner of property" /></th>
 								<th><spring:message code="list.Status"   text="Status" /></th>
 								<th></th>
 								<th></th>

@@ -44,10 +44,10 @@ public class HomeController {
 //            String pass = ((UserDetails)principal).getPassword();
 //            user.setEmail(((UserDetails)principal).getUsername());
             User user = userService.getByEmail(email);
-            List<Property> properties = propertyService.getPropertiesByStatus(PropertyStatus.APPROVED);
-            model.addAttribute("hotProperties",properties);
             model.addAttribute("currentUser", user);
         }
+        List<Property> properties = propertyService.getPropertiesByStatus(PropertyStatus.APPROVED);
+        model.addAttribute("hotProperties",properties);
         return "home";
     }
     

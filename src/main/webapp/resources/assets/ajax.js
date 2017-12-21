@@ -137,7 +137,7 @@ $(document).ready(function () {
         var contextRoot = "/" + window.location.pathname.split('/')[1];
         var dataTosend = JSON.stringify(serializeObject($('#propertyListModelId')));
         $.ajax({
-            url: contextRoot + '/property/ajaxsearch',
+            url: '/property/ajaxsearch',
             type: 'POST',
             dataType: 'json',
             data: dataTosend,
@@ -191,7 +191,7 @@ $(document).ready(function () {
         var contextRoot = "/" + window.location.pathname.split('/')[1];
         var dataTosend = JSON.stringify(serializeObject($('#propertyListModelList')));
         $.ajax({
-            url: contextRoot + '/property/ajaxsearchlist',
+            url: '/property/ajaxsearchlist',
             type: 'POST',
             dataType: 'json',
             data: dataTosend,

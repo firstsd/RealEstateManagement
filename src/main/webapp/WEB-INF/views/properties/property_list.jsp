@@ -37,7 +37,7 @@
 	<div class="container">
 		<div class="properties-listing spacer">
 			<form:form modelAttribute="searchDto"  role="form" 
-								action="property/search" method="POST" 
+								action="search" method="POST"
 								id="propertyListModelList" name="propertyListModel">
 				<div class="row">
 					<div class="col-lg-3 col-sm-4 ">
