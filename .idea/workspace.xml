@@ -6,78 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15090f4a-6a99-4d5a-969b-b6523a4dedba" name="Default" comment="model iig domain bolgoson">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/RealEstateManagement_war.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/shop-homepage.css" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/RealEstateManagement_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/RealEstateManagement_war_exploded.xml" />
+    <list default="true" id="15090f4a-6a99-4d5a-969b-b6523a4dedba" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mum/edu/project/controller/AppointmentController.java" afterPath="$PROJECT_DIR$/src/main/java/mum/edu/project/controller/AppointmentController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mum/edu/project/controller/ExceptionController.java" afterPath="$PROJECT_DIR$/src/main/java/mum/edu/project/controller/ExceptionController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mum/edu/project/controller/FeedbackController.java" afterPath="$PROJECT_DIR$/src/main/java/mum/edu/project/controller/FeedbackController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mum/edu/project/controller/HomeController.java" afterPath="$PROJECT_DIR$/src/main/java/mum/edu/project/controller/HomeController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mum/edu/project/controller/LoginController.java" afterPath="$PROJECT_DIR$/src/main/java/mum/edu/project/controller/LoginController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mum/edu/project/controller/PropertiesController.java" afterPath="$PROJECT_DIR$/src/main/java/mum/edu/project/controller/PropertiesController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mum/edu/project/controller/PropertyOrderController.java" afterPath="$PROJECT_DIR$/src/main/java/mum/edu/project/controller/PropertyOrderController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mum/edu/project/controller/RegisterController.java" afterPath="$PROJECT_DIR$/src/main/java/mum/edu/project/controller/RegisterController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mum/edu/project/controller/SearchPropertiesController.java" afterPath="$PROJECT_DIR$/src/main/java/mum/edu/project/controller/SearchPropertiesController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mum/edu/project/factory/PropertyFactory.java" afterPath="$PROJECT_DIR$/src/main/java/mum/edu/project/factory/PropertyFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mum/edu/project/repository/AppointmentRepository.java" afterPath="$PROJECT_DIR$/src/main/java/mum/edu/project/repository/AppointmentRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mum/edu/project/repository/PropertyFeedbackRepository.java" afterPath="$PROJECT_DIR$/src/main/java/mum/edu/project/repository/PropertyFeedbackRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mum/edu/project/repository/PropertyImageRepository.java" afterPath="$PROJECT_DIR$/src/main/java/mum/edu/project/repository/PropertyImageRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mum/edu/project/repository/PropertyOrderRepository.java" afterPath="$PROJECT_DIR$/src/main/java/mum/edu/project/repository/PropertyOrderRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mum/edu/project/repository/PropertyRepository.java" afterPath="$PROJECT_DIR$/src/main/java/mum/edu/project/repository/PropertyRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mum/edu/project/repository/PurposeTypeRepository.java" afterPath="$PROJECT_DIR$/src/main/java/mum/edu/project/repository/PurposeTypeRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mum/edu/project/repository/RoleRepository.java" afterPath="$PROJECT_DIR$/src/main/java/mum/edu/project/repository/RoleRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mum/edu/project/repository/UserRepository.java" afterPath="$PROJECT_DIR$/src/main/java/mum/edu/project/repository/UserRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mum/edu/project/service/AppointmentService.java" afterPath="$PROJECT_DIR$/src/main/java/mum/edu/project/service/AppointmentService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mum/edu/project/service/PropertyFeedbackService.java" afterPath="$PROJECT_DIR$/src/main/java/mum/edu/project/service/PropertyFeedbackService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mum/edu/project/service/PropertyImageService.java" afterPath="$PROJECT_DIR$/src/main/java/mum/edu/project/service/PropertyImageService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mum/edu/project/service/PropertyOrderService.java" afterPath="$PROJECT_DIR$/src/main/java/mum/edu/project/service/PropertyOrderService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mum/edu/project/service/PropertyService.java" afterPath="$PROJECT_DIR$/src/main/java/mum/edu/project/service/PropertyService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mum/edu/project/service/PurposeTypeService.java" afterPath="$PROJECT_DIR$/src/main/java/mum/edu/project/service/PurposeTypeService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mum/edu/project/service/RoleService.java" afterPath="$PROJECT_DIR$/src/main/java/mum/edu/project/service/RoleService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mum/edu/project/service/UserService.java" afterPath="$PROJECT_DIR$/src/main/java/mum/edu/project/service/UserService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mum/edu/project/service/impl/AppointmentServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/mum/edu/project/service/impl/AppointmentServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mum/edu/project/service/impl/PropertyFeedbackServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/mum/edu/project/service/impl/PropertyFeedbackServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mum/edu/project/service/impl/PropertyImageServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/mum/edu/project/service/impl/PropertyImageServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mum/edu/project/service/impl/PropertyOrderServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/mum/edu/project/service/impl/PropertyOrderServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mum/edu/project/service/impl/PropertyServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/mum/edu/project/service/impl/PropertyServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mum/edu/project/service/impl/PurposeTypeServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/mum/edu/project/service/impl/PurposeTypeServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mum/edu/project/service/impl/RoleServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/mum/edu/project/service/impl/RoleServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mum/edu/project/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/mum/edu/project/service/impl/UserServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mum/edu/project/validator/EmailValidaor.java" afterPath="$PROJECT_DIR$/src/main/java/mum/edu/project/validator/EmailValidaor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mum/edu/project/webflow/RegisterControllerHelper.java" afterPath="$PROJECT_DIR$/src/main/java/mum/edu/project/webflow/RegisterControllerHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/flows/register-flow.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/flows/register-flow.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/flows/webRegister.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/flows/webRegister.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-security.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-security.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/register.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/register.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/assets/style.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/assets/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/mum/edu/project/service/AppointmentServiceTest.java" afterPath="$PROJECT_DIR$/src/test/java/mum/edu/project/service/AppointmentServiceTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/mum/edu/project/service/OrderSeivceTest.java" afterPath="$PROJECT_DIR$/src/test/java/mum/edu/project/service/OrderSeivceTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/mum/edu/project/service/PropertyFeedbackServiceTest.java" afterPath="$PROJECT_DIR$/src/test/java/mum/edu/project/service/PropertyFeedbackServiceTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/mum/edu/project/service/UserSeivceTest.java" afterPath="$PROJECT_DIR$/src/test/java/mum/edu/project/service/UserSeivceTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/mum/edu/project/model/Address.java" afterPath="$PROJECT_DIR$/src/main/java/mum/edu/project/domain/Address.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/mum/edu/project/model/AppointmentStatus.java" afterPath="$PROJECT_DIR$/src/main/java/mum/edu/project/domain/AppointmentStatus.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/mum/edu/project/model/BookAppointment.java" afterPath="$PROJECT_DIR$/src/main/java/mum/edu/project/domain/BookAppointment.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/mum/edu/project/model/Invoice.java" afterPath="$PROJECT_DIR$/src/main/java/mum/edu/project/domain/Invoice.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/mum/edu/project/model/Payment.java" afterPath="$PROJECT_DIR$/src/main/java/mum/edu/project/domain/Payment.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/mum/edu/project/model/Property.java" afterPath="$PROJECT_DIR$/src/main/java/mum/edu/project/domain/Property.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/mum/edu/project/model/PropertyFeedback.java" afterPath="$PROJECT_DIR$/src/main/java/mum/edu/project/domain/PropertyFeedback.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/mum/edu/project/model/PropertyImage.java" afterPath="$PROJECT_DIR$/src/main/java/mum/edu/project/domain/PropertyImage.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/mum/edu/project/model/PropertyOrder.java" afterPath="$PROJECT_DIR$/src/main/java/mum/edu/project/domain/PropertyOrder.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/mum/edu/project/model/PropertyStatus.java" afterPath="$PROJECT_DIR$/src/main/java/mum/edu/project/domain/PropertyStatus.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/mum/edu/project/model/PurposeType.java" afterPath="$PROJECT_DIR$/src/main/java/mum/edu/project/domain/PurposeType.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/mum/edu/project/model/Role.java" afterPath="$PROJECT_DIR$/src/main/java/mum/edu/project/domain/Role.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/mum/edu/project/model/User.java" afterPath="$PROJECT_DIR$/src/main/java/mum/edu/project/domain/User.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/mum/edu/project/model/dto/DomainError.java" afterPath="$PROJECT_DIR$/src/main/java/mum/edu/project/domain/dto/DomainError.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/mum/edu/project/model/dto/DomainErrors.java" afterPath="$PROJECT_DIR$/src/main/java/mum/edu/project/domain/dto/DomainErrors.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/mum/edu/project/model/dto/PropertyDto.java" afterPath="$PROJECT_DIR$/src/main/java/mum/edu/project/domain/dto/PropertyDto.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/mum/edu/project/model/dto/PropertyOrderDto.java" afterPath="$PROJECT_DIR$/src/main/java/mum/edu/project/domain/dto/PropertyOrderDto.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/mum/edu/project/model/dto/SearchPropertyDto.java" afterPath="$PROJECT_DIR$/src/main/java/mum/edu/project/domain/dto/SearchPropertyDto.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/mum/edu/project/model/helper/PropertyListModel.java" afterPath="$PROJECT_DIR$/src/main/java/mum/edu/project/domain/helper/PropertyListModel.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/mum/edu/project/model/helper/PropertyModel.java" afterPath="$PROJECT_DIR$/src/main/java/mum/edu/project/domain/helper/PropertyModel.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -104,9 +34,11 @@
           <file leaf-file-name="PropertyRepository.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/mum/edu/project/repository/PropertyRepository.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="204">
-                  <caret line="21" column="61" lean-forward="false" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
-                  <folding />
+                <state relative-caret-position="-29">
+                  <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -728,7 +660,7 @@
       <workItem from="1513702511615" duration="4696000" />
       <workItem from="1513708726380" duration="27000" />
       <workItem from="1513788477494" duration="4212000" />
-      <workItem from="1513813548345" duration="6468000" />
+      <workItem from="1513813548345" duration="6567000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore deer idea nemev">
       <created>1513702535475</created>
@@ -765,7 +697,14 @@
       <option name="project" value="LOCAL" />
       <updated>1513707978007</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="model iig domain bolgoson">
+      <created>1513826606929</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1513826606929</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -774,7 +713,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39035000" />
+    <option name="totallyTimeSpent" value="39134000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1233,9 +1172,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mum/edu/project/repository/PropertyRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="21" column="61" lean-forward="false" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
-          <folding />
+        <state relative-caret-position="-29">
+          <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
